@@ -1,0 +1,7 @@
+1.What happens when you initialize a repository? Why do you need to do it?
+Ans.Initializing a repository means creating a new Git repository. It is used to create an empty repository or convert a directory
+with files to a Git repository in order to track files in the directory.
+
+2.How is the staging area different from working directory and the repository? What value do you think it offers?
+Ans.Staging area is the intermediate area between working directory and the repository where files can be added before assigning
+to a commit. This allows files to be grouped so that they represent a logical change.
