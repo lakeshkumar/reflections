@@ -1,0 +1,3 @@
+1.When would you want to use a remote repository rather than keeping all your work local?
+Ans.Remote repository can be used to share work with other people when collaborating with others or when working from other computers and
+keeping it up to date.
