@@ -4,4 +4,27 @@ with files to a Git repository in order to track files in the directory.
 
 2.How is the staging area different from working directory and the repository? What value do you think it offers?
 Ans.Staging area is the intermediate area between working directory and the repository where files can be added before assigning
-to a commit. This allows files to be grouped so that they represent a logical change.
+to a commit. This allows files to be grouped before adding so that they together represent a logical change.
+
+3.How can you use the staging area to make sure you have one commit per logical change?
+Ans.We can make changes to files in our directory and then add only those files to the staging area which collectively represent
+a particular logical change leaving others. This way all related files will have a commit as per logical change and so on we can commit
+other logical changes.
+
+4.What are some situations when branches would be useful in keeping your history organised? How would branches help?
+Ans.Branches are helpful when we like testing some new feature in our project but instead of commitng these changes to the repository
+Git allows us to choose a separate branch without disturbing the master branch. The master branch is different from the other branches
+which keeps our work organised but other branches can be merged to master branch at a later stage.
+
+5.How do the diagrams help you visualize the branch structure?
+Ans.The diagram shows the parent of each commit. It shows the reachablity of each commit and in case of multiple branches the tip of each
+branch as well as the starting point of each branch.
+
+6.What is the result of merging two branches together? Why do we represent in the diagram the way we do?
+Ans.Merging two branches creates a single branch combining commits of both the branches. It allows people working separately on
+different branches combine their features into one. It is represented by showing different branches combining into one because this
+actually creates a new commit combining two parent commits which were earlier two heads.
+
+7.What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Ans.Pros: Automatic merging saves a lot of time but doing this manually can be painful.
+Cons: There can be conflicts which cannot be resolved easily so in such cases merging manually is the best
