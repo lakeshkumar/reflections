@@ -1,3 +1,27 @@
 1.When would you want to use a remote repository rather than keeping all your work local?
 Ans.Remote repository can be used to share work with other people when collaborating with others or when working from other computers and
 keeping it up to date.
+
+2.Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote
+repository?
+Ans.When we are working on something we might not want code to change automatically and also if there is some bug on the remote code we might
+not want to pull it.
+
+3.Describe the difference between forks, clones and branches. When would you use one instead of one another?
+Ans.Forking and cloning are used to make a new copy of an existing repository. Forking copies a GitHub user's repository to our own account.
+Cloning can make a copy both from a remote server as well as from a local copy. Branching is used to add certain feature to an existing repository.
+
+Forking can be used when we want to modify someones repository. Cloning is used to work on a repository locally and branching is used while
+collaborating with others to add new features.
+
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
+Ans.Copy of the last known state shows the remote status and can be used to make comparisons and merge commits while we are off-line.
+
+5. How would you collaborate without using Git or GitHub? What would be easier and what would be harder?
+Ans.Without Git or GitHub we can collaborate using Google Docs or Dropbox. We can work on the same file together at the same time but merging
+changes and viewing differences would be difficult. This would take a lot of time to complete a project by collaborating this way.
+
+6.When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Ans.Making changes in a separate branch is useful while collaborating with others. In such a case we might create a pull request and let
+others review my changes. This helps others see my changes and provide feedback while we can make changes directly in master branch when we
+are working on our own.
