@@ -11,13 +11,13 @@ Ans.We can make changes to files in our directory and then add only those files 
 a particular logical change leaving others. This way all related files will have a commit as per logical change and so on we can commit
 other logical changes.
 
-4.What are some situations when branches would be useful in keeping your history organised? How would branches help?
-Ans.Branches are helpful when we like testing some new feature in our project but instead of commitng these changes to the repository
+4.What are some situations when branches would be useful in keeping your history organized? How would branches help?
+Ans.Branches are helpful when we like testing some new feature in our project but instead of committing these changes to the repository
 Git allows us to choose a separate branch without disturbing the master branch. The master branch is different from the other branches
-which keeps our work organised but other branches can be merged to master branch at a later stage.
+which keeps our work organized but other branches can be merged to master branch at a later stage.
 
 5.How do the diagrams help you visualize the branch structure?
-Ans.The diagram shows the parent of each commit. It shows the reachablity of each commit and in case of multiple branches the tip of each
+Ans.The diagram shows the parent of each commit. It shows the reachability of each commit and in case of multiple branches the tip of each
 branch as well as the starting point of each branch.
 
 6.What is the result of merging two branches together? Why do we represent in the diagram the way we do?

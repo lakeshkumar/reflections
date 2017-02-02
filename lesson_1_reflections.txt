@@ -3,7 +3,7 @@ Ans.The diff command compares the content of two files and shows only the differ
 searching the whole file for the bug, diff makes it easier to see recent changes and locate the bug.
 
 2.How could having access to the entire history of a file make you an efficient programmer in the long term?
-Ans.Having access to the entire history of a file helps us to quickly retrive an older version for checking bugs
+Ans.Having access to the entire history of a file helps us to quickly retrieve an older version for checking bugs
 and thus saving time.
 
 3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in git, vs having
